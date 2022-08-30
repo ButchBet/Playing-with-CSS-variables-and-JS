@@ -25,7 +25,8 @@ html {
 /* 1 */
 body,
 .controls,
-.image {
+.image,
+.controls__items {
     display: flex;
 }
 
@@ -36,15 +37,21 @@ body,
 
 body,
 .controls,
-.image {
+.image,
+.controls__items {
     align-content: center;
+}
+
+.controls__items {
+    align-items: center;
 }
 
 .image {
     justify-content: center;
 }
 
-body {
+body,
+.controls--diff {
     justify-content: flex-start;
 }
 
@@ -59,7 +66,13 @@ body {
 }
 
 .controls,
+.controls__items {
+    gap: 10px;
+}
+
+.controls,
 .controls__items,
+.controls__input,
 .image,
 .image__img {
     width: 100%;
@@ -67,6 +80,12 @@ body {
 
 .controls {
     box-sizing: border-box;
+}
+
+
+.controls--difSize{
+    width: 20%;
+    height: 0%;
 }
 
 .image {
@@ -77,6 +96,10 @@ body {
 .title {
     font-size: 2.5rem;
     text-align: center;
+}
+
+.controls__lable {
+    font-size: 1.6rem;
 }
 
 /* 4 */
