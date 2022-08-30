@@ -1,3 +1,102 @@
-body {
-    background: blue;
+:root {
+    --color: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
 }
+
+html {
+    font-size: 63.5%; /*1rem = 10px*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+1. Position
+2. Box model
+3. Typography
+4. Visual
+5. Other
+*/
+
+/* 1 */
+body,
+.controls,
+.image {
+    display: flex;
+}
+
+body,
+.controls {
+    flex-flow: column wrap;
+}
+
+body,
+.controls,
+.image {
+    align-content: center;
+}
+
+.image {
+    justify-content: center;
+}
+
+body {
+    justify-content: flex-start;
+}
+
+.controls {
+    justify-content: space-evenly;
+}
+
+/* 2 */
+body {
+    padding: 15px;
+    gap: 10px;
+}
+
+.controls,
+.controls__items,
+.image,
+.image__img {
+    width: 100%;
+}
+
+.controls {
+    box-sizing: border-box;
+}
+
+.image {
+    padding: var(--spacing);
+}
+
+/* 3 */
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* 4 */
+body {
+    background: #182c3c;
+}
+
+.title {
+    color: white;
+}
+
+.title--changeColor {
+    color: var(--color);
+}
+
+.controls__lable {
+    color: #b4c7d2;
+}
+
+.image {
+    background: var(--color);
+}
+/* 5 */
