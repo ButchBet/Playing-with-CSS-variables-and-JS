@@ -10,7 +10,7 @@
 
 
 ## Overview
-This is a solution to the [Project of the Practical Course of HTML and CSS](https://platzi.com/cursos/html-practico/).
+This is a solution to the [Project of the Web Bos course](https://courses.wesbos.com/account/access/62f5161388db94aff3b2dab9/view/194130480).
 
 ### Screenshot
 ![Desktop](./assets/desktop.png)
