@@ -121,5 +121,6 @@ body {
 
 .image {
     background: var(--color);
+    filter: blur(var(--blur));
 }
 /* 5 */
