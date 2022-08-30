@@ -18,7 +18,7 @@ This is a solution to the [Project of the Web Bos course](https://courses.wesbos
 
 ### Links
 - Solution URL: [GitHub](https://github.com/ButchBet/Playing-with-CSS-variables-and-JS)
-- Live Site URL: [Google](https://butchbet.github.io/Playing-with-CSS-variables-and-JS)
+- Live Site URL: [PWCSSVAJS](https://butchbet.github.io/Playing-with-CSS-variables-and-JS)
 
 ### Built with
 - Semantic HTML5 markup
